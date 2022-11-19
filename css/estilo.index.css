@@ -1,4 +1,10 @@
-
+header{
+  background-color: #77dd8b;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Sono', sans-serif;;
+  }
 .logo {
   height: 70px;
 }
@@ -21,8 +27,22 @@ li {
   list-style: none;
 }
 
-@media (max-width: 480px) {  
-  .titulo{
-    font-size: 1.0em;
-  }
+.cards{
+  display: flex;
+  font-family: 'Sono', sans-serif;;
+}
+.card{
+  margin: 1.5cm;
+  
+}
+
+img{
+  width: 100px;
+  height: 250px;
+}
+p, h1{
+  font-family: 'Sono', sans-serif;;
+}
+input{
+  border-color: 8acba6;
 }

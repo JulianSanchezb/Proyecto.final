@@ -4,24 +4,25 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Animales en Antioquia</title>
     <link rel="stylesheet" href="./css/estilo.index.css" />
     <link rel="stylesheet" href="./css/menu.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Sono&display=swap" rel="stylesheet">
+    
   </head>
   <body>
-    <header class="Tituloosm">       
-      <div class="barra">
-          <h2>Menu<img src="./Imagenes/antioquia-map.png" alt=""></h2>
-          <ul>
-              <li><a href="/index.html">Inicio</a></li>
-              <li><a href="/Zorro cangrejero.html">Zorro perro</a></li>
-              <li><a href="/presente.html">Presente en ingles</a></li>
-              <li><a href="/pasado.html">Pasado en ingles</a></li>
-              <li><a href="/futuro.html">Futuro en ingles</a></li>
-              <li><a href="/creadores.html">Creadores</a></li>
-          </ul>
+    <header>
+      <div>
+        !Hola¡
       </div> 
-  </header>
+      <div>
+        <form action="">
+          <input type="button" value="Click aquí" onclick="saludo()">
+        </form>
+      </div>  
+    </header>
     <div class="Intro">
       <h1>Animales en Antioquia</h1>
       <p>
@@ -39,5 +40,52 @@
         Antioquia y hablaremos sobre ellos.
       </p>
     </div>
+    <div class="cards">
+      <div class="card" style="width: 18rem;">
+        <img src="./Imagenes/Zorro perro.JPG" class="card-img-top" alt="Zorro perro">
+        <div class="card-body">
+          <h5 class="card-title">Zorro perro</h5>
+          <p class="card-text"></p>
+          <a href="Zorro perro.html" class="btn btn-primary">Ver más</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="./Imagenes/Olinguito.jpeg" class="card-img-top" alt="Olinguito">
+        <div class="card-body">
+          <h5 class="card-title">Olinguito</h5>
+          <p class="card-text"></p>
+          <a href="Olinguito.html" class="btn btn-primary">Ver más</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="./Imagenes/Guagua.jpg" class="card-img-top" alt="Guagua">
+        <div class="card-body">
+          <h5 class="card-title">Guagua</h5>
+          <p class="card-text"></p>
+          <a href="Guagua.html" class="btn btn-primary">Ver más</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="./Imagenes/Mono tití.png" class="card-img-top" alt="Mono tití">
+        <div class="card-body">
+          <h5 class="card-title">Mono tití</h5>
+          <p class="card-text"></p>
+          <a href="Mono tití.html" class="btn btn-primary">Ver más</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="./Imagenes/Rana de cristal.jpg" class="card-img-top" alt="Rana de Cristal">
+        <div class="card-body">
+          <h5 class="card-title">Rana de cristal</h5>
+          <p class="card-text"></p>
+          <a href="Rana de cristal.html" class="btn btn-primary">Ver más</a>
+        </div>
+      </div>
+  </div>
+  <script>
+    function saludo(){
+      alert("Disfruta la estadía en la página");
+    }
+  </script>
   </body>
 </html>

@@ -46,9 +46,7 @@ header {
     margin: 10px;
   }
   
-  p,h1,h2{
-    font-family: 'Sono', sans-serif;;
-  }
+  
   
   .titulo {
     display: flex;
@@ -66,13 +64,16 @@ header {
     
   }
   
+  p,h1,h2{
+    font-family: 'Sono', sans-serif;;
+  }
   p{
     width: 60%;
     font-size: 1.5em;
     
   }
   
-  #Olinguito{
+  #tití{
     border-radius: 40px;
     width: 40%;
   }
@@ -122,11 +123,11 @@ header {
       padding: 20px;
       
     }
-    #Olinguito{
+    #tití{
       border-radius: 40px;
       width: 60%;
     }
-    #mapaolinguito{
+    #mapatití{
       width: 50%;
     }
   }

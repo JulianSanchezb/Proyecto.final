@@ -22,7 +22,9 @@ header {
   margin: 10px;
 }
 
-
+p,h1,h2{
+  font-family: 'Sono', sans-serif;;
+}
 
 
 .titulo {

@@ -13,6 +13,10 @@ header {
     height: 35px;
     width: 55px;
   }
+
+  p,h1,h2{
+    font-family: 'Sono', sans-serif;
+  }
   
   .menú {
     display: flex;
@@ -46,9 +50,7 @@ header {
     margin: 10px;
   }
   
-  p,h1,h2{
-    font-family: 'Sono', sans-serif;;
-  }
+  
   
   .titulo {
     display: flex;
@@ -71,8 +73,11 @@ header {
     font-size: 1.5em;
     
   }
-  
-  #Olinguito{
+  #maparana{
+        width: 40%;
+  }
+
+  #rana{
     border-radius: 40px;
     width: 40%;
   }
@@ -122,11 +127,11 @@ header {
       padding: 20px;
       
     }
-    #Olinguito{
+    #rana{
       border-radius: 40px;
       width: 60%;
     }
-    #mapaolinguito{
+    #maparana{
       width: 50%;
     }
   }

@@ -46,9 +46,7 @@ header {
     margin: 10px;
   }
   
-  p,h1,h2{
-    font-family: 'Sono', sans-serif;;
-  }
+  
   
   .titulo {
     display: flex;
@@ -72,7 +70,7 @@ header {
     
   }
   
-  #Olinguito{
+  #guagua{
     border-radius: 40px;
     width: 40%;
   }
@@ -96,6 +94,9 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
+  }
+  p,h1,h2{
+    font-family: 'Sono', sans-serif;;
   }
   
   #reproduccion{
@@ -122,11 +123,11 @@ header {
       padding: 20px;
       
     }
-    #Olinguito{
+    #guagua{
       border-radius: 40px;
       width: 60%;
     }
-    #mapaolinguito{
+    #mapaguagua{
       width: 50%;
     }
   }
