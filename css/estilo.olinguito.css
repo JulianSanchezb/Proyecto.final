@@ -1,24 +1,24 @@
-header{
+header {
     min-height: 60px;
     display: flex;
     justify-content: space-between;
     background-color: #77dd8b;
-}
-.logo{
+  }
+  
+  .logo {
     height: 70px;
-}
-.Menú{
+  }
+  
+  .Menú {
     height: 35px;
     width: 55px;
-}
-.menú{
+  }
+  
+  .menú {
     display: flex;
     background-color: aquamarine;
     border-radius: 100%;
     align-items: center;
     margin-top: 10px;
     margin-bottom: 10px;
-}
-.Intro{
-    margin-left: 20px;
-}
+  }

@@ -1,0 +1,28 @@
+
+.logo {
+  height: 70px;
+}
+.Menú {
+  height: 35px;
+  width: 55px;
+}
+.menú {
+  display: flex;
+  background-color: aquamarine;
+  border-radius: 100%;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.Intro {
+  margin-left: 20px;
+}
+li {
+  list-style: none;
+}
+
+@media (max-width: 480px) {  
+  .titulo{
+    font-size: 1.0em;
+  }
+}

@@ -1,0 +1,107 @@
+header {
+  min-height: 60px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #77dd8b;
+}
+
+.logo {
+  height: 70px;
+}
+
+.Menú {
+  height: 35px;
+  width: 55px;
+}
+
+.menú {
+  display: flex;
+  background-color: aquamarine;
+  border-radius: 100%;
+  align-items: center;
+  margin: 10px;
+}
+
+
+
+
+.titulo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contenedor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  padding: 100px;
+  
+}
+
+p{
+  width: 60%;
+  font-size: 1.5em;
+  
+}
+
+#imgzorro{
+  border-radius: 40px;
+  width: 40%;
+}
+
+h2{
+  font-size: 2.5em;
+}
+h1{
+  font-size: 4.0em;
+}
+
+#habitat{
+  background-image: url(/Imagenes/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+#alimentacion{
+  background-image: url(/Imagenes/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+#reproduccion{
+  background-image: url(/Imagenes/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+@media (max-width: 480px) {  
+  .titulo{
+    font-size: 0.5em;
+  }
+  p{
+    font-size: 0.6em;
+    
+  }
+  .contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 20px;
+    
+  }
+  #imgzorro{
+    border-radius: 40px;
+    width: 60%;
+  }
+  #mapazorro{
+    width: 50%;
+  }
+}
